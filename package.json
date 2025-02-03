@@ -1,0 +1,17 @@
+{
+    "name": "sample-express",
+    "version": "1.0.0",
+    "description": "sample express server",
+    "license": "ISC",
+    "type": "module",
+    "main": "index.js",
+    "dependencies": {
+        "express": "^4.21.2",
+        "node-fetch": "^3.3.2"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "me",
+    "devDependencies": {}
+    }
