@@ -12,7 +12,7 @@ const routeAPINames = async () => {
         return err;
     }
     const names = data
-        .map((item) => 'id: ${item.id}, name: ${item.name}')
+        .map((item) => `id: ${item.id}, name: ${item.name}`)
         .join("<br>");
     return names;
 };
